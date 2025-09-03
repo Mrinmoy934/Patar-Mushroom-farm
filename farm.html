@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patar's Mushroom Farm - Premium Organic Mushrooms</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Patar's Farm Logo">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <a href="#products" class="cta-button">
+                    <span>Explore Products</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Our Farm</h2>
+                <p class="section-subtitle">Cultivating excellence in every mushroom</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To provide the freshest, highest-quality organic mushrooms while promoting sustainable farming practices and supporting our local community.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Our Values</h3>
+                        <p>We believe in organic cultivation, environmental responsibility, and delivering products that nourish both body and soul.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Our Promise</h3>
+                        <p>Every mushroom is carefully cultivated using traditional methods combined with modern sustainable practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle">Fresh, organic mushrooms for every taste</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product 4.png" alt="Button Mushroom" class="product-image-smaller">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Button Mushroom</h3>
+                        <p class="product-description">Classic white mushrooms perfect for everyday cooking. Mild flavor and versatile use.</p>
+                        <div class="product-badge">Popular</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Product 3.png" alt="Oyster Mushroom" class="product-image-small">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Oyster Mushrooms</h3>
+                        <p class="product-description">Delicate texture with a subtle, sweet flavor. Excellent for stir-fries and soups.</p>
+                        <div class="product-badge">Fresh</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Product 2.png" alt="Dried Oyster Mushroom Powder" class="product-image-small">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Dried Oyster Mushroom Powder</h3>
+                        <p class="product-description">Nutritious, earthy flavor with subtle umami notes. Valued for its health benefits and ease of use in diverse culinary creations.</p>
+                        <div class="product-badge">Premium</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Product 1.png" alt="Dried Oyster Mushroom" class="product-image-small">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Dried Oyster Mushroom</h3>
+                        <p class="product-description">Rich, savory flavor with a tender, meaty texture. Prized for their health benefits and wide culinary versatility.</p>
+                        <div class="product-badge">Organic</div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Visit Our Farm</h4>
+                            <p><br>NH-37, Thekeraguri, Morigaon, Assam</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Call Us</h4>
+                            <p>+91 9957174920 <br>+91 9953704193 <br>Mon - Sat: 8AM - 6PM</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email Us</h4>
+                            <p>patarmushroom@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+    
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#products">Products</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Patar's Mushroom Farm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
